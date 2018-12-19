@@ -1,0 +1,14 @@
+server:
+  port: 8888
+spring:
+  cloud:
+    config:
+      discovery:
+        enabled: true
+      server:
+        encrypt.enabled: false
+        git:
+          uri: https://github.com/rrajancool/CodeZine.git
+          searchPaths: licensingservice,organizationservice
+          username: rathish1.rajan
+          password: Arjun@Building5
