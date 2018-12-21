@@ -1,4 +1,4 @@
-package com.example.eurekasvr;
+package com.codezine.organizationservice;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
